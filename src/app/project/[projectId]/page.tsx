@@ -7,6 +7,8 @@ import InteractionList from "../../components/InteractionList";
 import { Project } from "../../types";
 import Link from "next/link";
 
+export const runtime = "edge";
+
 interface ProjectDetailsPageProps {
   params: {
     projectId: string;

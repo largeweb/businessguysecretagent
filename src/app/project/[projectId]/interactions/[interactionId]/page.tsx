@@ -5,6 +5,8 @@ import Footer from "../../../../components/Footer";
 import InteractionDetails from "../../../../components/InteractionDetails";
 import { Interaction } from "../../../../types";
 
+export const runtime = "edge";
+
 interface InteractionDetailsPageProps {
   params: {
     projectId: string;

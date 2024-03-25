@@ -5,6 +5,8 @@ import Footer from "../../../../components/Footer";
 import AgentMonologue from "../../../../components/AgentMonologue";
 import { Agent } from "../../../../types";
 
+export const runtime = "edge";
+
 interface AgentDetailsPageProps {
   params: {
     projectId: string;

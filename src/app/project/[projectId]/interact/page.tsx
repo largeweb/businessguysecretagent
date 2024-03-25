@@ -4,6 +4,8 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import { Project } from "../../../types";
 
+export const runtime = "edge";
+
 interface UserInteractionPageProps {
   params: {
     projectId: string;

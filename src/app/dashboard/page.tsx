@@ -5,6 +5,8 @@ import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import { Project } from "../types";
 
+export const runtime = "edge";
+
 export default async function DashboardPage() {
   const session = await auth();
   if (!session) {
